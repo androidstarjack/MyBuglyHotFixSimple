@@ -128,8 +128,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onBackPressed() {
         super.onBackPressed();
-        Log.e("MainActivity", "onBackPressed");
 
+        Log.e("MainActivity", "onBackPressed");
         Beta.unInit();
+    }
+
+
+    public  void  start(){
+
     }
 }
