@@ -136,7 +136,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     public  void  start(){
 
-
+		 Log.e("MainActivity", "onBackPressed");
 
     }
 }
